@@ -1,0 +1,469 @@
+/* Reset and Overrides Starts*/
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight:400;
+	position:relative;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a{
+	border:none;
+	color: #231f20;
+}
+.clear-fix{
+	clear:both;
+}
+*::-moz-selection, *::selection  {
+    background: #00a9ca;
+    color: #fff;
+    text-shadow: none;
+}
+/* Reset and Overrides Ends*/
+
+/* Layout Style Starts*/
+.ucContainer
+{
+	width:1170px;
+	margin:0 auto;
+}
+
+/* Layout Style Ends*/
+
+/*Header Style Starts*/
+
+.ucHeader
+{
+	background: #0b84d1;
+    height: 600px;
+    margin-bottom: 70px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.ucInnerHeader
+{
+	background: #0b84d1;
+    height: 340px;
+    margin-bottom: 70px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.ucHeaderWrapper
+{
+	width: 970px;
+	margin:0 auto;
+	padding-top:24px;
+	overflow: auto;
+}
+.ucLogo
+{
+	width:130px;
+	height: 42px;
+	float: left;
+	background: url('../../images/logo.png') no-repeat center center;
+}
+.ucMenu .navbar-default .navbar-nav>li>a
+{
+	color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.ucMenu .navbar-default .navbar-toggle .icon-bar
+{
+	background-color: #fff;
+}
+.ucMenu .navbar-default
+{
+	background-color: transparent;
+	border: none;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+{
+	background-color: transparent;
+}
+.ucMenu ul
+{
+	margin:10px 0 0; 
+	padding:0;
+}
+.ucMenu ul li
+{
+	display:inline;
+	padding:0 30px;
+}
+.ucMenu ul li a
+{
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #fff;
+}
+.ucMenu .ucDownloadIcon
+{
+	background: url('../../images/downloadIcon.png') no-repeat left top;
+	padding-left: 27px;
+}
+.ucMenu .ucSourceCodeIcon
+{
+	background: url('../../images/sourceCodeIcon.png') no-repeat left top;
+	padding-left: 37px;
+}
+.ucMenu .ucFAQIcon
+{
+	background: url('../../images/faqIcon.png') no-repeat left top;
+	padding-left: 27px;
+}
+.ucBannerContent
+{
+	padding:10px;
+	margin-top: 60px;
+	text-align: center;
+}
+.ucInnerBannerContent
+{
+	padding:10px;
+	text-align: center;
+}
+.ucBannerContent h5
+{
+	text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.ucBannerContent h1, .ucInnerBannerContent h1
+{
+	font-size:60px;
+	color: #fff;
+	font-weight: normal;
+	font-variant-ligatures: no-common-ligatures;
+	margin: 20px 0;
+}
+.ucBannerContent p
+{
+	font-size:20px;
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+}
+.ucInnerBannerContent p
+{
+	font-size:30px;
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+}
+.ucImageContent img
+{
+	margin: 0 auto;
+}
+.ucBannerBtn
+{
+	padding: 20px 30px;
+    background-color: #ffdd3e;
+    color: #000;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+}
+.ucBannerBtn:hover, .ucBannerBtn:focus
+{
+	color: #000;
+	text-decoration: none;
+}
+/*Header Styles Ends*/
+/* Ribbon Styles Start */
+.ribbon{
+  position: absolute; 
+  top: 42px;
+  width: 200px;
+  padding: 1px 0;
+  background: #d01f1f;
+  color: #fff;
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   right: -42px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.ribbon a, .ribbon a:visited, .ribbon a:active, .ribbon a:hover
+{
+  display: block;
+  padding: 1px 0;
+  height: 24px;
+  line-height: 20px;
+  color: inherit;  
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid rgba(255,255,255,0.3);
+  -moz-text-shadow: 0 0 10px rgba(0,0,0,0.31);
+  -webkit-text-shadow: 0 0 10px rgba(0,0,0,0.31);
+  text-shadow: 0 0 10px rgba(0,0,0,0.31);
+}
+
+/* Ribbon Styles Ends*/
+/*Main Content Styles Starts*/
+
+h4
+{
+	font-size: 48px;
+	font-weight: 300;
+	text-align: center;
+	color: #333;
+	margin-bottom:80px;
+}
+.ucRow
+{
+	margin-bottom: 90px;
+}
+
+.ucImageContent
+{
+	text-align: center;
+	margin-bottom: 90px;
+}
+.ucTextContent
+{
+	padding-top: 90px;
+	margin-bottom: 90px;
+}
+.ucTextContent h6
+{
+	font-size: 30px;
+	color: #333333;
+	margin-bottom:15px;
+	font-weight: normal;
+}
+.ucTextContent p
+{
+	font-size: 16px;
+	color: #929292;
+	line-height: 24px;
+	font-weight: 300;
+}
+p
+{
+	font-size: 16px;
+	color: #929292;
+	line-height: 24px;
+	font-weight: 300;
+}
+.ucAboutContent h4
+{
+	margin-bottom: 30px;
+}
+.ucAboutContent p
+{
+	text-align: center;
+	margin-bottom: 90px;
+}
+.ucFAQBanner
+{
+	width: 100%;
+	float: left;
+	padding: 50px;
+	background: #0b84d1; 
+}
+.ucBannerWrapper h3
+{
+	font-size: 40px;
+	color: #fff;
+	font-weight: 300;
+	font-variant-ligatures: no-common-ligatures;
+	display: inline-block;
+	margin:0;
+}
+.ucBtnOutline
+{
+	border: 1px solid #fff;
+    color: #fff;
+    background: none;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 5px;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+.ucBtnOutline:hover, .ucBtnOutline:focus
+{
+	color:#fff;
+	text-decoration: none;
+}
+
+footer
+{
+	width:100%;
+	float:left;
+	padding: 60px 0;
+	text-align:center;
+}
+footer p 
+{
+	color:#333;
+}
+.ucFaqSection h2
+{
+	font-size: 42px;
+	color: #333;
+	font-weight: 300;
+	font-variant-ligatures: no-common-ligatures;
+	text-align: left;
+	margin: 0 0 30px;
+}
+.ucQuestionList
+{
+	margin-left:15px;
+	margin-bottom: 30px;
+}
+.ucQuestionList li
+{
+	line-height: 24px;
+    color: #333;
+    padding-bottom: 20px;
+}
+.ucQuestionList li a
+{
+	color: #0678be;
+    font-size: 16px;
+}
+.ucFaqSection h5
+{
+  font-size: 25px;
+  margin-bottom: 40px;
+  
+}
+.ucQuestion
+{
+	font-size: 20px;
+	font-weight: 400;
+	color: #666;
+}
+.ucAnswer
+{
+	line-height: 30px;
+	margin-bottom: 40px;
+}
+/*Main Content Styles Ends*/
+
+/* Responsive Styles Start */
+@media only screen and (max-width: 1170px) 
+{
+	.ucContainer { width:100%; padding:0 20px;}
+	.ucContentLeft, .ucContentRight{width:48%;}
+	.ucHeaderWrapper{ width:90%;}
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) 
+{
+	.ucLogo{ margin-right: 30px;}
+	
+	.ucMenu{}
+	.ucMenu ul li {padding: 0 20px;}
+	.ucBannerContent {margin-top: 30px;}
+	.ucBannerContent h1 {font-size:45px;}
+	.ucHeader{ height: 520px;}
+	.ucImageContent,.ucTextContent, .ucBannerWrapper {text-align: center;}
+	.ucImageContent{ margin-bottom: 20px;}
+	.ucImageContent img{margin:0 auto;}
+	.ucTextContent{margin-bottom: 60px; padding-top:40px;}
+	.ucImageContent.pull-right{float:none !important;}
+	
+	.ucBannerWrapper .pull-right, .ucBannerWrapper .pull-left {float:none !important;}
+	.ucBannerWrapper h3{display:block; margin-bottom:20px; text-align: center;}
+	.ucBtnOutline {display: inline-block;}
+}
+@media only screen and (max-width: 767px) 
+{
+	.ucHeaderWrapper{ width:80%;}
+	.ucBannerContent { margin-top: 0;}
+	
+	
+	.ucMenu{float:none; margin: 20px 0 0;}
+	.navbar-default .navbar-collapse {background-color: #0cb1d0; border:0;}
+	.ucImageContent,.ucTextContent, .ucBannerWrapper {text-align: center;}
+	.ucImageContent{ margin-bottom: 20px;}
+	.ucImageContent img{margin:0 auto;}
+	.ucTextContent{margin-bottom: 100px; padding-top:40px;}
+	.ucImageContent.pull-right{float:none !important;}
+	.ucBannerWrapper h3{display:block; margin-bottom:20px;  text-align: center;}
+	.ucBannerWrapper .pull-right, .ucBannerWrapper .pull-left {float:none !important;}
+	
+	.ucBtnOutline {display: inline-block;}
+}
+@media only screen and (max-width: 767px) and (min-width: 680px) 
+{
+	.ucBannerContent h1 {font-size:40px;}
+	.ucHeader{ height: 480px;}
+	.ucBannerWrapper h3 {font-size: 35px;}
+}
+@media only screen and (max-width: 679px) and (min-width: 580px) 
+{
+	.ucBannerContent h1 {font-size:36px;}
+	.ucBannerContent h5 {font-size: 13px;}
+	.ucHeader{ height: 480px;}
+	.ucBannerWrapper h3 {font-size: 32px;}
+	.ucBtnOutline {padding: 10px 40px; font-size: 15px;}
+	.ucHeaderWrapper {width: 75%;}
+	.ucTextContent {padding: 40px 30px 0px;}
+	.ucAboutContent p { padding: 0 20px;}
+	.ucFAQBanner{padding: 30px;}
+}
+@media only screen and (max-width: 579px) and (min-width: 480px) 
+{
+	.ucBannerContent h1 {font-size: 29px; line-height: 36px;}
+	.ucBannerContent p { font-size: 18px; margin-bottom: 30px;}
+	.ucBannerContent h5 {font-size: 13px;}
+	.ucHeader{ height: 450px; margin-bottom: 50px;}
+	.ucBannerWrapper h3 {font-size: 28px;}
+	.ucBtnOutline {padding: 10px 40px; font-size: 15px;}
+	.ucHeaderWrapper {width: 70%;}
+	.ucTextContent {padding: 40px 30px 0px;}
+	.ucAboutContent p { padding: 0 20px;}
+	.ucFAQBanner {padding: 30px;}
+	h4 {font-size:40px; margin-bottom: 50px;}
+}
+@media only screen and (max-width: 479px) and (min-width: 320px) 
+{
+	.ucBannerBtn {padding: 15px 30px;}
+	.ucBannerContent h1 {font-size: 29px; line-height: 36px;}
+	.ucBannerContent p { font-size: 18px; margin-bottom: 30px;}
+	.ucBannerContent h5 {font-size: 13px;}
+	.ucHeader{ height: 490px; margin-bottom: 50px;}
+	.ucBannerWrapper h3 {font-size: 20px;}
+	.ucBtnOutline {padding: 10px 40px; font-size: 15px;}
+	.ucHeaderWrapper {width: 70%;}
+	.ucTextContent {padding: 40px 30px 0px;}
+	.ucAboutContent p { padding: 0 20px; margin-bottom: 50px;}
+	.ucFAQBanner {padding: 25px 0;}
+	h4 {font-size:35px; margin-bottom: 40px;}
+	.ribbon {right: -55px;    top: 32px;}
+	footer{padding: 30px 0;}
+	footer p{font-size: 14px;}
+}
+/* Responsive Styles Ends */
